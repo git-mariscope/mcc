@@ -53,6 +53,7 @@ namespace testform
             string DateAndTime = DateTime.Now.ToString("MM-dd-yyyy H.mm.ss");
 
             string folderVideo = @"C:\Mariscope\Camara1\Videos\";
+            //esto es un comentario
 
             if (!Directory.Exists(folderVideo))
             {
